@@ -21,7 +21,7 @@ class Categories extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => ScheduleService()));
             },
             child: CategoryListItem(
-              categoryIcon: Icons.bug_report,
+              categoryIcon: Icons.calendar_clock,
               categoryName: "Schedule Service",
               availability: 3,
               selected: true,
@@ -33,7 +33,7 @@ class Categories extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => AcService()));
             },
             child: CategoryListItem(
-              categoryIcon: Icons.bug_report,
+              categoryIcon: Icons.c_ac,
               categoryName: "Ac Service",
               availability: 2,
               selected: true,
@@ -45,7 +45,7 @@ class Categories extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => Tyres()));
             },
             child: CategoryListItem(
-              categoryIcon: Icons.bug_report,
+              categoryIcon: Icons.tyre,
               categoryName: "Tyres",
               availability: 1,
               selected: true,
@@ -57,7 +57,7 @@ class Categories extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => CarCareService()));
             },
             child: CategoryListItem(
-              categoryIcon: Icons.bug_report,
+              categoryIcon: Icons.ccs,
               categoryName: "Car Care Service",
               availability: 7,
               selected: true,
@@ -69,7 +69,7 @@ class Categories extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => Denting()));
             },
             child: CategoryListItem(
-              categoryIcon: Icons.bug_report,
+              categoryIcon: Icons.c_denting,
               categoryName: "Denting/Painting",
               availability: 15,
               selected: true,
@@ -81,7 +81,7 @@ class Categories extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => Batteries()));
             },
             child: CategoryListItem(
-              categoryIcon: Icons.bug_report,
+              categoryIcon: Icons.c_battery,
               categoryName: "Batteries",
               availability: 2,
               selected: true,
@@ -93,7 +93,7 @@ class Categories extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => WheelCareService()));
             },
             child: CategoryListItem(
-              categoryIcon: Icons.bug_report,
+              categoryIcon: Icons.wcs,
               categoryName: "Wheel Care Service",
               availability: 3,
               selected: true,
